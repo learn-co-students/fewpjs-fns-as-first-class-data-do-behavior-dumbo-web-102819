@@ -9,8 +9,8 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 function greet(`HH:MM`) {
-  if (`HH:MM` )
-
+  if (`HH:MM` > 12pm)
+  return "Good Morning"
 }
 
 /* Write your implementation of displayMessage() */
